@@ -1,0 +1,24 @@
+<a href="/">
+  <i class="fa-fa-home"></i>
+</a>
+
+<h1 id="flashbackTitle">{{ message }}</h1>
+<p id="flashbackViewBy">Filter By:</p>
+<p class="filterButtons">Adventure</p>
+<p class="filterButtons">Comedy</p>
+<p class="filterButtons">Drama</p>
+<p class="filterButtons">Thriller</p>
+<p class="filterButtons">Fantasy</p>
+<p class="filterButtons">SciFi</p>
+
+<ul>
+  {{#each carData}}
+    <li>
+      <img src="../views/images/{{ imgPath }}">
+      <h4 class="movieName">{{ movieName }}</h4>
+      <p>{{ year }}</p>
+      <p>{{ movieDetails }}</p>
+      <p class="moreDetailsButton">More Details</p>
+    </li>
+  {{/each}}
+</ul>

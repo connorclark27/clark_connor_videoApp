@@ -1,0 +1,119 @@
+body {
+  padding: 50px;
+  font-family: 'Karma', serif;
+  color: white;
+  background: url(images/backgroundTex.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.profileButtons
+{
+	color: #fff;
+	font-size: 36px;
+	border: 1px solid #fff;
+	border-radius: 100px;
+	padding: 5px;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-decoration: none;
+	background-color: rgba(255,255,255,.1);
+	text-align: center;
+	transition: all .5s;
+}
+
+.profileButtons:hover
+{
+	background-color: rgba(255,255,255,.5);
+}
+
+ul
+{
+	text-decoration: none;
+}
+
+ul li
+{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+#profileButtonCont
+{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#flashbackTitle
+{
+	font-size: 48px;
+	text-align: center;
+}
+
+#flashbackSubtitle
+{
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+.movieName
+{
+	font-size: 24px;
+}
+
+.moreDetailsButton
+{
+	color: #fff;
+	font-size: 14px;
+	border: 1px solid #fff;
+	border-radius: 100px;
+	padding: 5px;
+	text-decoration: none;
+	background-color: rgba(255,255,255,.1);
+	text-align: center;
+	transition: all .5s;
+	width: 100px;
+}
+
+.moreDetailsButton:hover
+{
+	background-color: rgba(255,255,255,.5);
+}
+
+#flashbackViewBy
+{
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.filterButtons
+{
+	color: #fff;
+	font-size: 14px;
+	border: 1px solid #fff;
+	border-radius: 100px;
+	padding: 5px;
+	text-decoration: none;
+	background-color: rgba(255,255,255,.1);
+	text-align: center;
+	transition: all .5s;
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	margin-bottom: 5px;
+}
+
+.filterButtons:hover
+{
+	background-color: rgba(255,255,255,.5);
+}
